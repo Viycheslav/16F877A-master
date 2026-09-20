@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "PIC16F877A XC8_v4_00",
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "C:/Microchip/xc8/v4.00/pic/include",
+                "C:/Microchip/xc8/v4.00/pic/include/C99",
+                "C:/Microchip/_DFP/xc8/pic/include",
+                "C:/Microchip/_DFP/xc8/pic/include/proc",
+                "${workspaceFolder}/",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_XTAL_FREQ=12000000UL",
+                "__XC",
+                "__XC8",
+                "__XC8_VERSION=4000",
+                "_16F877A",
+                "__PICC__",
+                "__unsupported__(x)=",
+                "__bit="
+            ],
+            "compilerPath": "",
+            "cStandard": "c99",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,24 @@
+{
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "Run",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "sync",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Microchip\\xc8\\v4.00\\bin;${env:PATH}"
+  }
+}
